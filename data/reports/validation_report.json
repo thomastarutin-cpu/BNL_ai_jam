@@ -1,0 +1,1335 @@
+{
+  "record_count": 144,
+  "missing_required_columns": [],
+  "duplicate_record_ids": [],
+  "unrecognized_laser_types": [],
+  "unrecognized_demonstrated_status": [],
+  "parse_failure_count": 0,
+  "parse_failures": [],
+  "missing_source_count": 19,
+  "missing_sources": [
+    {
+      "record_id": "sel-100-pw-shanghai-institute-of-optics-and-fine-mechanics-planned-742a70",
+      "laser_name": "SEL-100 PW",
+      "facility": "Shanghai Institute of Optics and Fine Mechanics",
+      "country": "China",
+      "doi_or_link": ""
+    },
+    {
+      "record_id": "sg-ii-pw-shanghai-institute-of-optics-and-fine-mechanics-siom-cas-2015-c700a4",
+      "laser_name": "SG-II PW",
+      "facility": "Shanghai Institute of Optics and Fine Mechanics (SIOM), CAS",
+      "country": "China",
+      "doi_or_link": ""
+    },
+    {
+      "record_id": "jupiter-laser-facility-janusp-lawrence-livermore-national-laboratory-nr-f8a356",
+      "laser_name": "Jupiter Laser Facility (JanUSP)",
+      "facility": "Lawrence Livermore National Laboratory",
+      "country": "",
+      "doi_or_link": ""
+    },
+    {
+      "record_id": "aprri-pw-laser-unknown-unknown-6b9cdd",
+      "laser_name": "APRRI PW Laser",
+      "facility": "",
+      "country": "",
+      "doi_or_link": ""
+    },
+    {
+      "record_id": "cala-unknown-unknown-6dea15",
+      "laser_name": "CALA",
+      "facility": "",
+      "country": "",
+      "doi_or_link": ""
+    },
+    {
+      "record_id": "clpu-vega-2-unknown-unknown-09106e",
+      "laser_name": "CLPU VEGA-2",
+      "facility": "",
+      "country": "",
+      "doi_or_link": ""
+    },
+    {
+      "record_id": "eli-np-unknown-unknown-f655a9",
+      "laser_name": "ELI-NP",
+      "facility": "",
+      "country": "",
+      "doi_or_link": ""
+    },
+    {
+      "record_id": "iles-pw-laser-unknown-unknown-af0862",
+      "laser_name": "ILES PW Laser",
+      "facility": "",
+      "country": "",
+      "doi_or_link": ""
+    },
+    {
+      "record_id": "laboratory-for-intense-laser-matter-interaction-physics-unknown-unknown-ca02d8",
+      "laser_name": "Laboratory for intense Laser-matter interaction physics",
+      "facility": "",
+      "country": "",
+      "doi_or_link": ""
+    },
+    {
+      "record_id": "mtw-opal-unknown-unknown-c4a6dc",
+      "laser_name": "MTW-OPAL",
+      "facility": "",
+      "country": "",
+      "doi_or_link": ""
+    },
+    {
+      "record_id": "mercury-lawrence-livermore-national-laboratory-nr-4ad7c5",
+      "laser_name": "Mercury",
+      "facility": "Lawrence Livermore National Laboratory",
+      "country": "",
+      "doi_or_link": ""
+    },
+    {
+      "record_id": "pearl-unknown-unknown-a98051",
+      "laser_name": "PEARL",
+      "facility": "",
+      "country": "",
+      "doi_or_link": ""
+    },
+    {
+      "record_id": "sg-ii-up-unknown-unknown-0f065f",
+      "laser_name": "SG-II UP",
+      "facility": "",
+      "country": "",
+      "doi_or_link": ""
+    },
+    {
+      "record_id": "siom-pw-laser-unknown-unknown-c29e54",
+      "laser_name": "SIOM PW Laser",
+      "facility": "",
+      "country": "",
+      "doi_or_link": ""
+    },
+    {
+      "record_id": "sulf-unknown-unknown-de6831",
+      "laser_name": "SULF",
+      "facility": "",
+      "country": "",
+      "doi_or_link": ""
+    },
+    {
+      "record_id": "vega-unknown-unknown-e51572",
+      "laser_name": "VEGA",
+      "facility": "",
+      "country": "",
+      "doi_or_link": ""
+    },
+    {
+      "record_id": "xcels-unknown-unknown-6dd139",
+      "laser_name": "XCELS",
+      "facility": "",
+      "country": "",
+      "doi_or_link": ""
+    },
+    {
+      "record_id": "ifast-unknown-unknown-a2967c",
+      "laser_name": "iFAST",
+      "facility": "",
+      "country": "",
+      "doi_or_link": ""
+    },
+    {
+      "record_id": "phoenix-laser-laborartory-unknown-unknown-a3f943",
+      "laser_name": "phoenix laser laborartory",
+      "facility": "",
+      "country": "",
+      "doi_or_link": ""
+    }
+  ],
+  "missing_name": [],
+  "missing_facility": [
+    {
+      "record_id": "aprri-pw-laser-unknown-unknown-6b9cdd",
+      "laser_name": "APRRI PW Laser",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "cala-unknown-unknown-6dea15",
+      "laser_name": "CALA",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "clpu-vega-2-unknown-unknown-09106e",
+      "laser_name": "CLPU VEGA-2",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "eli-np-unknown-unknown-f655a9",
+      "laser_name": "ELI-NP",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "iles-pw-laser-unknown-unknown-af0862",
+      "laser_name": "ILES PW Laser",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "laboratory-for-intense-laser-matter-interaction-physics-unknown-unknown-ca02d8",
+      "laser_name": "Laboratory for intense Laser-matter interaction physics",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "mtw-opal-unknown-unknown-c4a6dc",
+      "laser_name": "MTW-OPAL",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "pearl-unknown-unknown-a98051",
+      "laser_name": "PEARL",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "sg-ii-up-unknown-unknown-0f065f",
+      "laser_name": "SG-II UP",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "siom-pw-laser-unknown-unknown-c29e54",
+      "laser_name": "SIOM PW Laser",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "sulf-unknown-unknown-de6831",
+      "laser_name": "SULF",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "vega-unknown-unknown-e51572",
+      "laser_name": "VEGA",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "xcels-unknown-unknown-6dd139",
+      "laser_name": "XCELS",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "ifast-unknown-unknown-a2967c",
+      "laser_name": "iFAST",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "phoenix-laser-laborartory-unknown-unknown-a3f943",
+      "laser_name": "phoenix laser laborartory",
+      "facility": "",
+      "country": ""
+    }
+  ],
+  "missing_country": [
+    {
+      "record_id": "jupiter-laser-facility-janusp-lawrence-livermore-national-laboratory-nr-f8a356",
+      "laser_name": "Jupiter Laser Facility (JanUSP)",
+      "facility": "Lawrence Livermore National Laboratory",
+      "country": ""
+    },
+    {
+      "record_id": "orion-long-pulse-351-nm-beamline-shots-awe-plc-atomic-weapons-establishment-2013-2fcec0",
+      "laser_name": "Orion long-pulse 351 nm beamline shots",
+      "facility": "AWE plc / Atomic Weapons Establishment",
+      "country": ""
+    },
+    {
+      "record_id": "aprri-pw-laser-unknown-unknown-6b9cdd",
+      "laser_name": "APRRI PW Laser",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "cala-unknown-unknown-6dea15",
+      "laser_name": "CALA",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "clpu-vega-2-unknown-unknown-09106e",
+      "laser_name": "CLPU VEGA-2",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "eli-np-unknown-unknown-f655a9",
+      "laser_name": "ELI-NP",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "iles-pw-laser-unknown-unknown-af0862",
+      "laser_name": "ILES PW Laser",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "laboratory-for-intense-laser-matter-interaction-physics-unknown-unknown-ca02d8",
+      "laser_name": "Laboratory for intense Laser-matter interaction physics",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "mtw-opal-unknown-unknown-c4a6dc",
+      "laser_name": "MTW-OPAL",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "mercury-lawrence-livermore-national-laboratory-nr-4ad7c5",
+      "laser_name": "Mercury",
+      "facility": "Lawrence Livermore National Laboratory",
+      "country": ""
+    },
+    {
+      "record_id": "orion-frequency-doubled-short-pulse-demonstration-awe-plc-atomic-weapons-establishment-2013-f185e7",
+      "laser_name": "Orion frequency-doubled short-pulse demonstration",
+      "facility": "AWE plc / Atomic Weapons Establishment",
+      "country": ""
+    },
+    {
+      "record_id": "pearl-unknown-unknown-a98051",
+      "laser_name": "PEARL",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "sg-ii-up-unknown-unknown-0f065f",
+      "laser_name": "SG-II UP",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "siom-pw-laser-unknown-unknown-c29e54",
+      "laser_name": "SIOM PW Laser",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "sulf-unknown-unknown-de6831",
+      "laser_name": "SULF",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "vega-unknown-unknown-e51572",
+      "laser_name": "VEGA",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "xcels-unknown-unknown-6dd139",
+      "laser_name": "XCELS",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "ifast-unknown-unknown-a2967c",
+      "laser_name": "iFAST",
+      "facility": "",
+      "country": ""
+    },
+    {
+      "record_id": "phoenix-laser-laborartory-unknown-unknown-a3f943",
+      "laser_name": "phoenix laser laborartory",
+      "facility": "",
+      "country": ""
+    }
+  ],
+  "fom_missingness_by_column": [
+    {
+      "column": "peak_power_w",
+      "missing_count": 19,
+      "missing_fraction": 0.13194444444444445
+    },
+    {
+      "column": "wavelength_m",
+      "missing_count": 15,
+      "missing_fraction": 0.10416666666666667
+    },
+    {
+      "column": "rep_rate_s_inv",
+      "missing_count": 75,
+      "missing_fraction": 0.5208333333333334
+    },
+    {
+      "column": "max_intensity_w_m2",
+      "missing_count": 131,
+      "missing_fraction": 0.9097222222222222
+    },
+    {
+      "column": "pulse_energy_j",
+      "missing_count": 22,
+      "missing_fraction": 0.1527777777777778
+    },
+    {
+      "column": "pulse_duration_fs",
+      "missing_count": 23,
+      "missing_fraction": 0.1597222222222222
+    }
+  ],
+  "incomplete_fom_records": [
+    {
+      "record_id": "sel-100-pw-shanghai-institute-of-optics-and-fine-mechanics-planned-742a70",
+      "laser_name": "SEL-100 PW",
+      "facility": "Shanghai Institute of Optics and Fine Mechanics",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "gekko-exa-j-epoch-institute-of-laser-engineering-osaka-university-concept-technology-development-f8baa5",
+      "laser_name": "GEKKO-EXA / J-EPoCH",
+      "facility": "Institute of Laser Engineering, Osaka University",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "nsf-opal-ep-opal-university-of-rochester-laboratory-for-laser-energetics-design-prototyping-phase-539c32",
+      "laser_name": "NSF OPAL / EP-OPAL",
+      "facility": "University of Rochester, Laboratory for Laser Energetics",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "vulcan-20-20-central-laser-facility-stfc-rutherford-appleton-laboratory-target-late-2020s-not-yet-demonstrated-17ad5d",
+      "laser_name": "Vulcan 20-20",
+      "facility": "Central Laser Facility, STFC Rutherford Appleton Laboratory",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "high-power-laser-system-hpls-magurele-romania-2022-9396ae",
+      "laser_name": "High-Power Laser System (HPLS)",
+      "facility": "Magurele, Romania",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "eli-beamlines-l4-aton-eli-beamlines-eli-eric-2025-ac7e94",
+      "laser_name": "ELI Beamlines L4 ATON",
+      "facility": "ELI Beamlines, ELI ERIC",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "apollon-luli-cnrs-cea-cole-polytechnique-universit-paris-saclay-2-pw-demonstrated-8-10-pw-commissioning-goal-cb42d3",
+      "laser_name": "Apollon",
+      "facility": "LULI / CNRS / CEA / \u00c9cole Polytechnique / Universit\u00e9 Paris-Saclay",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "eli-np-10-pw-beamline-extreme-light-infrastructure-nuclear-physics-2019-743bac",
+      "laser_name": "ELI-NP 10 PW Beamline",
+      "facility": "Extreme Light Infrastructure - Nuclear Physics",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "sulf-prototype-siom-shanghaitech-2016-1580d1",
+      "laser_name": "SULF Prototype",
+      "facility": "SIOM / ShanghaiTech",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "chinese-academy-of-engineering-physics-pw-laser-mianyang-china-2017-4ea1cd",
+      "laser_name": "Chinese Academy of Engineering Physics PW Laser",
+      "facility": "Mianyang, China",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "lap-tdli-tsinghua-university-commissioning-ae49e3",
+      "laser_name": "LAP (TDLI)",
+      "facility": "Tsinghua University",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "clapa-ii-peking-university-commissioning-5988ea",
+      "laser_name": "CLAPA-II",
+      "facility": "Peking University",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "qiangguang-siom-state-key-lab-2012-53e17f",
+      "laser_name": "Qiangguang",
+      "facility": "SIOM State Key Lab",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "hf-2pw-arm-szeged-hungary-2023-1287df",
+      "laser_name": "HF-2PW Arm",
+      "facility": "Szeged, Hungary",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "lfex-osaka-univ-ile-2016-64f2db",
+      "laser_name": "LFEX",
+      "facility": "Osaka Univ. ILE",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "zeus-university-of-michigan-center-for-ultrafast-optical-science-2025-b883d5",
+      "laser_name": "ZEUS",
+      "facility": "University of Michigan / Center for Ultrafast Optical Science",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "shanghai-institute-of-optics-and-fine-mechanics-5-pw-shanghai-china-2018-41fb51",
+      "laser_name": "Shanghai Institute of Optics and Fine Mechanics 5 PW",
+      "facility": "Shanghai, China",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "sg-ii-pw-shanghai-institute-of-optics-and-fine-mechanics-siom-cas-2015-c700a4",
+      "laser_name": "SG-II PW",
+      "facility": "Shanghai Institute of Optics and Fine Mechanics (SIOM), CAS",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "nova-petawatt-llnl-1996-795c33",
+      "laser_name": "Nova Petawatt",
+      "facility": "LLNL",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "bella-berkeley-usa-2012-dbd05b",
+      "laser_name": "BELLA",
+      "facility": "Berkeley, USA",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "xtreme-light-iii-xl-iii-beijing-china-2011-505045",
+      "laser_name": "Xtreme Light III (XL-III)",
+      "facility": "Beijing, China",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "petal-cea-laser-m-gajoule-2015-266014",
+      "laser_name": "PETAL",
+      "facility": "CEA / Laser M\u00e9gajoule",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "rrcat-pw-rrcat-indore-2025-f011f0",
+      "laser_name": "RRCAT PW",
+      "facility": "RRCAT Indore",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "texas-petawatt-univ-texas-at-austin-2010-6533de",
+      "laser_name": "Texas Petawatt",
+      "facility": "Univ. Texas at Austin",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "siom-cpa-opcpa-hybrid-siom-state-key-lab-2015-1da1b8",
+      "laser_name": "SIOM CPA-OPCPA hybrid",
+      "facility": "SIOM State Key Lab",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "secuf-shanghaitech-university-commissioning-abc50c",
+      "laser_name": "SECUF",
+      "facility": "ShanghaiTech University",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "sulf-1-pw-beamline-shanghai-superintense-ultrafast-laser-facility-2020-55c973",
+      "laser_name": "SULF 1 PW beamline",
+      "facility": "Shanghai Superintense Ultrafast Laser Facility",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "atlas-ludwig-maximilian-university-munich-2005-1febbf",
+      "laser_name": "ATLAS",
+      "facility": "Ludwig Maximilian University Munich",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "trishul-bhabha-atomic-research-centre-barc-planned-2a54cb",
+      "laser_name": "TRISHUL",
+      "facility": "Bhabha Atomic Research Centre (BARC)",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "cetal-inflpr-magurele-2018-676c8f",
+      "laser_name": "CETAL",
+      "facility": "INFLPR Magurele",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "exls-ibs-corels-2016-59f081",
+      "laser_name": "EXLS",
+      "facility": "IBS CoReLS",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "vega-3-clpu-salamanca-2018-d9a74b",
+      "laser_name": "VEGA-3",
+      "facility": "CLPU Salamanca",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "diocles-univ-nebraska-lincoln-2012-551ff7",
+      "laser_name": "Diocles",
+      "facility": "Univ. Nebraska-Lincoln",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "mec-u-high-repetition-rate-petawatt-laser-slac-national-accelerator-laboratory-not-yet-demonstrated-7dd13f",
+      "laser_name": "MEC-U high-repetition-rate petawatt laser",
+      "facility": "SLAC National Accelerator Laboratory",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "z-petawatt-z-pw-sandia-national-laboratories-2015-da91a1",
+      "laser_name": "Z-Petawatt (Z-PW)",
+      "facility": "Sandia National Laboratories",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "epac-1-pw-beamline-extreme-photonics-applications-centre-stfc-rutherford-appleton-laboratory-2026-551ae4",
+      "laser_name": "EPAC 1 PW beamline",
+      "facility": "Extreme Photonics Applications Centre, STFC Rutherford Appleton Laboratory",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "orion-pw-beams-awe-aldermaston-2013-75bc73",
+      "laser_name": "Orion PW beams",
+      "facility": "AWE Aldermaston",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "vulcan-petawatt-stfc-rutherford-appleton-lab-2004-c0ac0b",
+      "laser_name": "Vulcan Petawatt",
+      "facility": "STFC Rutherford Appleton Lab",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "gekko-xii-pw-beam-osaka-univ-ile-2004-cc5f39",
+      "laser_name": "GEKKO XII PW beam",
+      "facility": "Osaka Univ. ILE",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "j-karen-qst-kpsi-2003-1aada3",
+      "laser_name": "J-KAREN",
+      "facility": "QST/KPSI",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "alls-inrs-2017-771f57",
+      "laser_name": "ALLS",
+      "facility": "INRS",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "xg-iii-fs-beam-caep-mianyang-2018-04eb1a",
+      "laser_name": "XG-III fs beam",
+      "facility": "CAEP Mianyang",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "eli-alps-hf-pw-eli-alps-2023-e58abe",
+      "laser_name": "ELI-ALPS HF-PW",
+      "facility": "ELI-ALPS",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "pearl-opcpa-institute-of-applied-physics-russian-academy-of-sciences-2007-bcebda",
+      "laser_name": "PEARL OPCPA",
+      "facility": "Institute of Applied Physics, Russian Academy of Sciences",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "hapls-llnl-eli-beamlines-2017-43994c",
+      "laser_name": "HAPLS",
+      "facility": "LLNL / ELI-Beamlines",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "sacla-hermes-laser-riken-spring-8-2019-8aac80",
+      "laser_name": "SACLA/HERMES laser",
+      "facility": "RIKEN SPring-8",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "nif-llnl-2012-46dc0a",
+      "laser_name": "NIF",
+      "facility": "LLNL",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "laser-m-gajoule-main-beams-cea-laser-m-gajoule-2014-98221c",
+      "laser_name": "Laser M\u00e9gajoule main beams",
+      "facility": "CEA / Laser M\u00e9gajoule",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "scapa-univ-strathclyde-2017-d1c23a",
+      "laser_name": "SCAPA",
+      "facility": "Univ. Strathclyde",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "eli-beamlines-l2-amos-eli-beamlines-2018-67a45e",
+      "laser_name": "ELI Beamlines L2 (AMOS)",
+      "facility": "ELI Beamlines",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "arc-nif-livermore-usa-2015-d62f98",
+      "laser_name": "ARC (NIF)",
+      "facility": "Livermore, USA",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "laboratorio-di-laser-intensi-ilil-pisa-italy-2020-450298",
+      "laser_name": "Laboratorio di Laser Intensi (ILIL)",
+      "facility": "Pisa, Italy",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "arcturus-combined-heinrich-heine-univ-d-sseldorf-2015-1996cb",
+      "laser_name": "Arcturus (combined)",
+      "facility": "Heinrich Heine Univ. D\u00fcsseldorf",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "clapa-compact-laser-particle-accelerator-beijing-china-2019-f97200",
+      "laser_name": "CLAPA (Compact Laser Particle Accelerator)",
+      "facility": "Beijing, China",
+      "fom_completeness_score": 0.3333333333333333,
+      "fom_missing_count": 4
+    },
+    {
+      "record_id": "salle-violette-palaiseau-france-2025-9e6eff",
+      "laser_name": "Salle Violette",
+      "facility": "Palaiseau, France",
+      "fom_completeness_score": 0.3333333333333333,
+      "fom_missing_count": 4
+    },
+    {
+      "record_id": "angus-hamburg-germany-not-found-in-included-source-d545e4",
+      "laser_name": "ANGUS",
+      "facility": "Hamburg, Germany",
+      "fom_completeness_score": 0.3333333333333333,
+      "fom_missing_count": 4
+    },
+    {
+      "record_id": "jeti200-jena-germany-2017-4dd92d",
+      "laser_name": "JETI200",
+      "facility": "Jena, Germany",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "polaris-helmholtz-institute-jena-2016-48254e",
+      "laser_name": "POLARIS",
+      "facility": "Helmholtz Institute Jena",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "flame-frascati-italy-2018-b559dd",
+      "laser_name": "FLAME",
+      "facility": "Frascati, Italy",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "trident-los-alamos-usa-2007-322fd8",
+      "laser_name": "Trident",
+      "facility": "Los Alamos, USA",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "loa-200-tw-loa-palaiseau-2019-60b8fb",
+      "laser_name": "LOA 200 TW",
+      "facility": "LOA Palaiseau",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "titan-lawrence-livermore-national-laboratory-2005-ebfb3b",
+      "laser_name": "Titan",
+      "facility": "Lawrence Livermore National Laboratory",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "jupiter-laser-facility-janusp-lawrence-livermore-national-laboratory-nr-f8a356",
+      "laser_name": "Jupiter Laser Facility (JanUSP)",
+      "facility": "Lawrence Livermore National Laboratory",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "draco-hzdr-dresden-2010-fbf311",
+      "laser_name": "DRACO",
+      "facility": "HZDR Dresden",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "kaldera-desy-university-of-hamburg-2025-8e2302",
+      "laser_name": "KALDERA",
+      "facility": "DESY / University of Hamburg",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "max-born-institut-f-r-nichtlineare-optik-und-kurzzeitspektroskopie-berlin-germany-2017-4ac11c",
+      "laser_name": "MAX-BORN-INSTITUT f\u00fcr Nichtlineare Optik und Kurzzeitspektroskopie",
+      "facility": "Berlin, Germany",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "iskra-5-sarov-russia-1989-29a7ff",
+      "laser_name": "*ISKRA-5",
+      "facility": "Sarov, Russia",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "bestia-upton-usa-2017-698d46",
+      "laser_name": "BESTIA",
+      "facility": "Upton, USA",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "sg-iii-laser-facility-china-academy-of-engineering-physics-2015-4f14e2",
+      "laser_name": "SG-III Laser Facility",
+      "facility": "China Academy of Engineering Physics",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "pals-prague-asterix-laser-system-prague-czechia-2011-1e8bf8",
+      "laser_name": "PALS (Prague Asterix Laser System)",
+      "facility": "Prague, Czechia",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "omega-60-beam-laser-system-laboratory-for-laser-energetics-university-of-rochester-1995-cae39f",
+      "laser_name": "OMEGA 60-beam Laser System",
+      "facility": "Laboratory for Laser Energetics, University of Rochester",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "lcls-mec-short-pulse-laser-linac-coherent-light-source-mec-slac-2015-2eb0b2",
+      "laser_name": "LCLS MEC short-pulse laser",
+      "facility": "Linac Coherent Light Source / MEC, SLAC",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "mec-instrument-lcls-portola-valley-usa-not-found-in-source-facility-laser-characteristics-page-current-afde69",
+      "laser_name": "MEC Instrument (LCLS)",
+      "facility": "Portola Valley, USA",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "eli-beamlines-l1-allegra-eli-beamlines-2017-886502",
+      "laser_name": "ELI Beamlines L1 (ALLEGRA)",
+      "facility": "ELI Beamlines",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "eli-alps-sylos-3-eli-alps-2026-ca3656",
+      "laser_name": "ELI-ALPS SYLOS 3",
+      "facility": "ELI-ALPS",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "laboratory-for-intense-lasers-l2i-lisbon-portugal-2017-e393bd",
+      "laser_name": "Laboratory for Intense Lasers (L2I)",
+      "facility": "Lisbon, Portugal",
+      "fom_completeness_score": 0.3333333333333333,
+      "fom_missing_count": 4
+    },
+    {
+      "record_id": "tewalas-bucharest-romania-2015-e76e92",
+      "laser_name": "TEWALAS",
+      "facility": "Bucharest, Romania",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "ucla-neptune-co-ucla-neptune-laboratory-2010-7315e9",
+      "laser_name": "UCLA Neptune CO\u2082",
+      "facility": "UCLA Neptune Laboratory",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "100-mj-class-1-7-m-dc-opa-riken-university-of-tokyo-related-group-2022-e9d6e2",
+      "laser_name": "100-mJ-class 1.7 \u00b5m DC-OPA",
+      "facility": "RIKEN / University of Tokyo-related group",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "10-100-hz-laser-10-hz-line-varennes-canada-2005-a001f2",
+      "laser_name": "10/100 Hz Laser, 10 Hz Line",
+      "facility": "Varennes, Canada",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "pulsar-warsaw-poland-2015-ce78b6",
+      "laser_name": "Pulsar",
+      "facility": "Warsaw, Poland",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "facet-laser-portola-valley-usa-2014-181d58",
+      "laser_name": "FACET Laser",
+      "facility": "Portola Valley, USA",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "atf-co2-cpa-5-tw-2-ps-9-2-m-bnl-accelerator-test-facility-2020-18ae3a",
+      "laser_name": "ATF CO2 CPA (5 TW, 2 ps, 9.2 \u00b5m)",
+      "facility": "BNL Accelerator Test Facility",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "2-44-m-advanced-dc-opa-riken-university-of-tokyo-related-group-2024-2e1af1",
+      "laser_name": "2.44 \u00b5m advanced DC-OPA",
+      "facility": "RIKEN / University of Tokyo-related group",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "4-4-tw-opcpa-ludwig-maximilian-university-lmu-munich-max-planck-institute-of-quantum-optics-mpq-2024-2e5e83",
+      "laser_name": "4.4 TW OPCPA",
+      "facility": "Ludwig Maximilian University (LMU Munich) / Max Planck Institute of Quantum Optics (MPQ)",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "1-8-m-two-cycle-opcpa-nrc-canada-attoscience-group-2017-3976df",
+      "laser_name": "1.8 \u00b5m two-cycle OPCPA",
+      "facility": "NRC Canada / attoscience group",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "nike-krf-laser-naval-research-laboratory-2025-1b0709",
+      "laser_name": "NIKE KrF laser",
+      "facility": "Naval Research Laboratory",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "luli2000-north-beam-luli-cole-polytechnique-2003-f0491d",
+      "laser_name": "LULI2000 North beam",
+      "facility": "LULI / \u00c9cole Polytechnique",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "orion-long-pulse-351-nm-beamline-shots-awe-plc-atomic-weapons-establishment-2013-2fcec0",
+      "laser_name": "Orion long-pulse 351 nm beamline shots",
+      "facility": "AWE plc / Atomic Weapons Establishment",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "pearl-iap-ras-nizhny-novgorod-2006-6ad2b2",
+      "laser_name": "PEARL",
+      "facility": "IAP RAS Nizhny Novgorod",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "4-m-opcpa-hcf-compression-siom-chinese-academy-of-sciences-2018-6b6235",
+      "laser_name": "4 \u00b5m OPCPA + HCF compression",
+      "facility": "SIOM, Chinese Academy of Sciences",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "3-5-m-tunable-mid-ir-opa-shanghai-jiao-tong-university-related-mid-ir-group-2013-d9524c",
+      "laser_name": "3-5 \u00b5m tunable mid-IR OPA",
+      "facility": "Shanghai Jiao Tong University-related mid-IR group",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "swissfel-aramis-representative-hard-x-ray-mode-paul-scherrer-institute-swissfel-2019-c2d0b0",
+      "laser_name": "SwissFEL Aramis representative hard X-ray mode",
+      "facility": "Paul Scherrer Institute / SwissFEL",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "23-mj-high-power-fiber-cpa-system-friedrich-schiller-university-jena-fraunhofer-iof-2021-61a104",
+      "laser_name": "23 mJ high-power fiber CPA system",
+      "facility": "Friedrich Schiller University Jena / Fraunhofer IOF",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "pal-xfel-hard-x-ray-representative-mode-pohang-accelerator-laboratory-pal-xfel-2025-f32a32",
+      "laser_name": "PAL-XFEL hard X-ray representative mode",
+      "facility": "Pohang Accelerator Laboratory / PAL-XFEL",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "european-xfel-sase1-representative-hard-x-ray-mode-european-xfel-2017-e114ae",
+      "laser_name": "European XFEL SASE1 representative hard X-ray mode",
+      "facility": "European XFEL",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "sacla-bl3-representative-10-kev-hard-x-ray-fel-sacla-riken-spring-8-center-2012-0e1fe9",
+      "laser_name": "SACLA BL3 representative 10 keV hard X-ray FEL",
+      "facility": "SACLA / RIKEN SPring-8 Center",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "lcls-hard-x-ray-fel-representative-8-kev-mode-linac-coherent-light-source-slac-2009-5562b9",
+      "laser_name": "LCLS hard X-ray FEL representative 8 keV mode",
+      "facility": "Linac Coherent Light Source, SLAC",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "5-m-opcpa-max-born-institute-for-nonlinear-optics-and-short-pulse-spectroscopy-2020-215f99",
+      "laser_name": "5 \u00b5m OPCPA",
+      "facility": "Max Born Institute for Nonlinear Optics and Short Pulse Spectroscopy",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "3-m-multi-mj-opcpa-instituto-superior-t-cnico-2021-bf7f11",
+      "laser_name": "3 \u00b5m Multi-mJ OPCPA",
+      "facility": "Instituto Superior T\u00e9cnico",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "2-2-m-high-rep-opcpa-eth-z-rich-ultrafast-laser-physics-group-2020-c92b79",
+      "laser_name": "2.2 \u00b5m high-rep OPCPA",
+      "facility": "ETH Z\u00fcrich, Ultrafast Laser Physics group",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "dipole100-bivoj-100-j-dpssl-hilase-centre-stfc-central-laser-facility-2017-aaf6dc",
+      "laser_name": "DiPOLE100 / Bivoj 100 J DPSSL",
+      "facility": "HiLASE Centre / STFC Central Laser Facility",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "5-1-m-opcpa-max-born-institute-for-nonlinear-optics-and-short-pulse-spectroscopy-2020-815264",
+      "laser_name": "5.1 \u00b5m OPCPA",
+      "facility": "Max Born Institute for Nonlinear Optics and Short Pulse Spectroscopy",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "flash-soft-x-ray-fel-representative-euv-mode-desy-flash-2005-22ebf0",
+      "laser_name": "FLASH soft X-ray FEL representative EUV mode",
+      "facility": "DESY / FLASH",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "ho-ylf-cpa-pump-laser-for-mir-opcpa-creol-university-of-central-florida-2020-53c2a9",
+      "laser_name": "Ho:YLF CPA pump laser for MIR OPCPA",
+      "facility": "CREOL / University of Central Florida",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "7-m-opcpa-icfo-international-mid-ir-opcpa-group-2019-fedaeb",
+      "laser_name": "7 \u00b5m OPCPA",
+      "facility": "ICFO / international mid-IR OPCPA group",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "6-8-m-opcpa-icfo-2019-53869a",
+      "laser_name": "6.8 \u00b5m OPCPA",
+      "facility": "ICFO",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "eli-alps-mir-opcpa-representative-mode-eli-alps-2026-d9e15b",
+      "laser_name": "ELI-ALPS MIR OPCPA representative mode",
+      "facility": "ELI-ALPS",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "fermi-fel-1-seeded-xuv-representative-mode-fermi-elettra-sincrotrone-trieste-2012-a8d3b3",
+      "laser_name": "FERMI FEL-1 seeded XUV representative mode",
+      "facility": "FERMI / Elettra Sincrotrone Trieste",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "single-cycle-compressed-ytterbium-fiber-laser-max-planck-institute-2020-406582",
+      "laser_name": "Single-cycle compressed ytterbium fiber laser",
+      "facility": "Max Planck Institute",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "high-peak-power-ho-calgo-femtosecond-amplifier-ruhr-university-bochum-collaborators-2024-93853b",
+      "laser_name": "High peak-power Ho:CALGO femtosecond amplifier",
+      "facility": "Ruhr University Bochum / collaborators",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "11-4-m-lwir-opcpa-max-born-institute-for-nonlinear-optics-and-short-pulse-spectroscopy-2022-6bb4ab",
+      "laser_name": "11.4 \u00b5m LWIR OPCPA",
+      "facility": "Max Born Institute for Nonlinear Optics and Short Pulse Spectroscopy",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "8-9-m-zgp-opcpa-max-born-institute-mbi-2022-3c9159",
+      "laser_name": "8.9 \u00b5m ZGP OPCPA",
+      "facility": "Max Born Institute (MBI)",
+      "fom_completeness_score": 0.8333333333333334,
+      "fom_missing_count": 1
+    },
+    {
+      "record_id": "jefferson-lab-broadband-thz-fel-representative-mode-thomas-jefferson-national-accelerator-facility-2004-49f22d",
+      "laser_name": "Jefferson Lab broadband THz FEL representative mode",
+      "facility": "Thomas Jefferson National Accelerator Facility",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "felbe-far-ir-thz-helmholtz-zentrum-dresden-rossendorf-felbe-2003-eb2d1a",
+      "laser_name": "FELBE far-IR / THz",
+      "facility": "Helmholtz-Zentrum Dresden-Rossendorf / FELBE",
+      "fom_completeness_score": 0.6666666666666666,
+      "fom_missing_count": 2
+    },
+    {
+      "record_id": "aprri-pw-laser-unknown-unknown-6b9cdd",
+      "laser_name": "APRRI PW Laser",
+      "facility": "",
+      "fom_completeness_score": 0.0,
+      "fom_missing_count": 6
+    },
+    {
+      "record_id": "cala-unknown-unknown-6dea15",
+      "laser_name": "CALA",
+      "facility": "",
+      "fom_completeness_score": 0.0,
+      "fom_missing_count": 6
+    },
+    {
+      "record_id": "clpu-vega-2-unknown-unknown-09106e",
+      "laser_name": "CLPU VEGA-2",
+      "facility": "",
+      "fom_completeness_score": 0.0,
+      "fom_missing_count": 6
+    },
+    {
+      "record_id": "eli-np-unknown-unknown-f655a9",
+      "laser_name": "ELI-NP",
+      "facility": "",
+      "fom_completeness_score": 0.0,
+      "fom_missing_count": 6
+    },
+    {
+      "record_id": "iles-pw-laser-unknown-unknown-af0862",
+      "laser_name": "ILES PW Laser",
+      "facility": "",
+      "fom_completeness_score": 0.0,
+      "fom_missing_count": 6
+    },
+    {
+      "record_id": "laboratory-for-intense-laser-matter-interaction-physics-unknown-unknown-ca02d8",
+      "laser_name": "Laboratory for intense Laser-matter interaction physics",
+      "facility": "",
+      "fom_completeness_score": 0.0,
+      "fom_missing_count": 6
+    },
+    {
+      "record_id": "mtw-opal-unknown-unknown-c4a6dc",
+      "laser_name": "MTW-OPAL",
+      "facility": "",
+      "fom_completeness_score": 0.0,
+      "fom_missing_count": 6
+    },
+    {
+      "record_id": "mercury-lawrence-livermore-national-laboratory-nr-4ad7c5",
+      "laser_name": "Mercury",
+      "facility": "Lawrence Livermore National Laboratory",
+      "fom_completeness_score": 0.3333333333333333,
+      "fom_missing_count": 4
+    },
+    {
+      "record_id": "orion-frequency-doubled-short-pulse-demonstration-awe-plc-atomic-weapons-establishment-2013-f185e7",
+      "laser_name": "Orion frequency-doubled short-pulse demonstration",
+      "facility": "AWE plc / Atomic Weapons Establishment",
+      "fom_completeness_score": 0.3333333333333333,
+      "fom_missing_count": 4
+    },
+    {
+      "record_id": "pearl-unknown-unknown-a98051",
+      "laser_name": "PEARL",
+      "facility": "",
+      "fom_completeness_score": 0.0,
+      "fom_missing_count": 6
+    },
+    {
+      "record_id": "sg-ii-up-unknown-unknown-0f065f",
+      "laser_name": "SG-II UP",
+      "facility": "",
+      "fom_completeness_score": 0.0,
+      "fom_missing_count": 6
+    },
+    {
+      "record_id": "siom-pw-laser-unknown-unknown-c29e54",
+      "laser_name": "SIOM PW Laser",
+      "facility": "",
+      "fom_completeness_score": 0.0,
+      "fom_missing_count": 6
+    },
+    {
+      "record_id": "sulf-unknown-unknown-de6831",
+      "laser_name": "SULF",
+      "facility": "",
+      "fom_completeness_score": 0.0,
+      "fom_missing_count": 6
+    },
+    {
+      "record_id": "vega-unknown-unknown-e51572",
+      "laser_name": "VEGA",
+      "facility": "",
+      "fom_completeness_score": 0.0,
+      "fom_missing_count": 6
+    },
+    {
+      "record_id": "xcels-unknown-unknown-6dd139",
+      "laser_name": "XCELS",
+      "facility": "",
+      "fom_completeness_score": 0.0,
+      "fom_missing_count": 6
+    },
+    {
+      "record_id": "ifast-unknown-unknown-a2967c",
+      "laser_name": "iFAST",
+      "facility": "",
+      "fom_completeness_score": 0.0,
+      "fom_missing_count": 6
+    },
+    {
+      "record_id": "phoenix-laser-laborartory-unknown-unknown-a3f943",
+      "laser_name": "phoenix laser laborartory",
+      "facility": "",
+      "fom_completeness_score": 0.0,
+      "fom_missing_count": 6
+    },
+    {
+      "record_id": "shine-high-repetition-xfel-design-mode-shanghai-high-repetition-rate-xfel-and-extreme-light-facility-2025-63c017",
+      "laser_name": "SHINE high-repetition XFEL design mode",
+      "facility": "Shanghai High-Repetition-Rate XFEL and Extreme Light Facility",
+      "fom_completeness_score": 0.16666666666666666,
+      "fom_missing_count": 5
+    },
+    {
+      "record_id": "sxfel-soft-x-ray-user-facility-representative-mode-shanghai-soft-x-ray-free-electron-laser-facility-2023-d23734",
+      "laser_name": "SXFEL soft X-ray user facility representative mode",
+      "facility": "Shanghai Soft X-Ray Free-Electron Laser Facility",
+      "fom_completeness_score": 0.16666666666666666,
+      "fom_missing_count": 5
+    }
+  ],
+  "potential_unit_outliers": [
+    {
+      "record_id": "orion-long-pulse-351-nm-beamline-shots-awe-plc-atomic-weapons-establishment-2013-2fcec0",
+      "laser_name": "Orion long-pulse 351 nm beamline shots",
+      "column": "rep_rate_hz_num",
+      "value": -0.011111111111111112,
+      "message": "Value outside gentle review range [0, 1e+12]"
+    }
+  ]
+}

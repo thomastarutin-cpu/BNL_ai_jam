@@ -1,0 +1,115 @@
+facility,records,countries,petawatt_records,fom_completeness
+,15,,0,0.0
+ELI-ALPS,3,Hungary,0,0.6666666666666666
+Lawrence Livermore National Laboratory,3,USA,0,0.611111111111111
+Max Born Institute for Nonlinear Optics and Short Pulse Spectroscopy,3,Germany,0,0.8333333333333334
+AWE plc / Atomic Weapons Establishment,2,,0,0.5833333333333334
+"Beijing, China",2,China,1,0.5
+CEA / Laser Mégajoule,2,France,1,0.6666666666666666
+ELI Beamlines,2,Czech Republic,0,0.8333333333333334
+LLNL,2,USA,1,0.6666666666666666
+Osaka Univ. ILE,2,Japan,1,0.75
+"Portola Valley, USA",2,USA,0,0.8333333333333334
+RIKEN / University of Tokyo-related group,2,Japan,0,0.8333333333333334
+SIOM State Key Lab,2,China,2,0.6666666666666666
+STFC Rutherford Appleton Lab,2,United Kingdom,1,0.9166666666666667
+AWE Aldermaston,1,United Kingdom,1,0.6666666666666666
+"Ann Arbor, USA",1,USA,0,1.0
+BNL Accelerator Test Facility,1,USA,0,0.6666666666666666
+"Berkeley, USA",1,USA,1,0.8333333333333334
+"Berlin, Germany",1,Germany,0,0.8333333333333334
+Bhabha Atomic Research Centre (BARC),1,India,1,0.6666666666666666
+"Bucharest, Romania",1,Romania,0,0.8333333333333334
+CAEP Mianyang,1,China,0,0.6666666666666666
+CLPU Salamanca,1,Spain,1,0.8333333333333334
+CREOL / University of Central Florida,1,USA,0,0.8333333333333334
+"Central Laser Facility, STFC Rutherford Appleton Laboratory",1,United Kingdom,1,0.8333333333333334
+China Academy of Engineering Physics,1,China,0,0.6666666666666666
+Colorado State Univ.,1,USA,0,1.0
+DESY / FLASH,1,Germany,0,0.6666666666666666
+DESY / University of Hamburg,1,Germany,0,0.8333333333333334
+"ELI Beamlines, ELI ERIC",1,Czech Republic,1,0.8333333333333334
+"ETH Zürich, Ultrafast Laser Physics group",1,Switzerland,0,0.8333333333333334
+European XFEL,1,Germany,0,0.6666666666666666
+Extreme Light Infrastructure - Nuclear Physics,1,Romania,1,0.8333333333333334
+"Extreme Photonics Applications Centre, STFC Rutherford Appleton Laboratory",1,United Kingdom,1,0.6666666666666666
+FERMI / Elettra Sincrotrone Trieste,1,Italy,0,0.6666666666666666
+"Frascati, Italy",1,Italy,0,0.8333333333333334
+Friedrich Schiller University Jena / Fraunhofer IOF,1,Germany,0,0.6666666666666666
+GSI Helmholtz Centre,1,Germany,0,1.0
+HZDR Dresden,1,Germany,0,0.8333333333333334
+"Hamburg, Germany",1,Germany,0,0.3333333333333333
+Heinrich Heine Univ. Düsseldorf,1,Germany,0,0.6666666666666666
+Helmholtz Institute Jena,1,Germany,0,0.8333333333333334
+Helmholtz-Zentrum Dresden-Rossendorf / FELBE,1,Germany,0,0.6666666666666666
+HiLASE Centre / STFC Central Laser Facility,1,Czech Republic,0,0.6666666666666666
+IAP RAS Nizhny Novgorod,1,Russia,0,0.8333333333333334
+IBS CoReLS,1,South Korea,1,0.8333333333333334
+IBS CoReLS / GIST,1,South Korea,1,1.0
+ICFO,1,Spain,0,0.8333333333333334
+ICFO / international mid-IR OPCPA group,1,Spain / International,0,0.8333333333333334
+INFLPR Magurele,1,Romania,1,0.8333333333333334
+INRS,1,Canada,0,0.8333333333333334
+"Institute of Applied Physics, Russian Academy of Sciences",1,Russia,0,0.6666666666666666
+"Institute of Laser Engineering, Osaka University",1,Japan,1,0.6666666666666666
+Instituto Superior Técnico,1,Portugal,0,0.8333333333333334
+"Jena, Germany",1,Germany,0,0.6666666666666666
+"Kizugawa, Japan",1,Japan,1,1.0
+"LLE, Univ. Rochester",1,USA,0,1.0
+LLNL / ELI-Beamlines,1,Czech Republic,0,0.8333333333333334
+LOA Palaiseau,1,France,0,0.6666666666666666
+LULI / CNRS / CEA / École Polytechnique / Université Paris-Saclay,1,France,1,0.8333333333333334
+LULI / École Polytechnique,1,France,0,0.8333333333333334
+"Laboratory for Laser Energetics, University of Rochester",1,USA,0,0.6666666666666666
+"Linac Coherent Light Source / MEC, SLAC",1,USA,0,0.8333333333333334
+"Linac Coherent Light Source, SLAC",1,USA,0,0.6666666666666666
+"Lisbon, Portugal",1,Portugal,0,0.3333333333333333
+"Livermore, USA",1,USA,0,0.6666666666666666
+"Los Alamos, USA",1,USA,0,0.6666666666666666
+Ludwig Maximilian University (LMU Munich) / Max Planck Institute of Quantum Optics (MPQ),1,Germany,0,0.8333333333333334
+Ludwig Maximilian University Munich,1,Germany,1,0.8333333333333334
+"Magurele, Romania",1,Romania,1,0.8333333333333334
+Max Born Institute (MBI),1,Germany,0,0.8333333333333334
+Max Planck Institute,1,Germany,0,0.6666666666666666
+"Mianyang, China",1,China,1,0.6666666666666666
+NRC Canada / attoscience group,1,Canada,0,0.8333333333333334
+Naval Research Laboratory,1,USA,0,0.8333333333333334
+Ohio State Univ.,1,USA,0,1.0
+"Palaiseau, France",1,France,0,0.3333333333333333
+Paul Scherrer Institute / SwissFEL,1,Switzerland,0,0.6666666666666666
+Peking University,1,China,1,0.8333333333333334
+"Pisa, Italy",1,Italy,0,0.6666666666666666
+Pohang Accelerator Laboratory / PAL-XFEL,1,South Korea,0,0.6666666666666666
+"Prague, Czechia",1,Czech Republic,0,0.8333333333333334
+QST/KPSI,1,Japan,0,0.6666666666666666
+RIKEN SPring-8,1,Japan,0,0.8333333333333334
+RRCAT Indore,1,India,1,0.8333333333333334
+Ruhr University Bochum / collaborators,1,Germany,0,0.8333333333333334
+SACLA / RIKEN SPring-8 Center,1,Japan,0,0.6666666666666666
+SIOM / ShanghaiTech,1,China,1,0.6666666666666666
+"SIOM, Chinese Academy of Sciences",1,China,0,0.8333333333333334
+SIOM/NLHPLP,1,China,1,1.0
+SLAC National Accelerator Laboratory,1,USA,1,0.8333333333333334
+Sandia National Laboratories,1,USA,1,0.6666666666666666
+"Sarov, Russia",1,Russia,0,0.6666666666666666
+Shanghai High-Repetition-Rate XFEL and Extreme Light Facility,1,China,0,0.16666666666666666
+Shanghai Institute of Optics and Fine Mechanics,1,China,1,0.6666666666666666
+Shanghai Institute of Optics and Fine Mechanics (SIOM) / ShanghaiTech University,1,China,1,1.0
+"Shanghai Institute of Optics and Fine Mechanics (SIOM), CAS",1,China,1,0.8333333333333334
+Shanghai Jiao Tong University-related mid-IR group,1,China,0,0.8333333333333334
+Shanghai Soft X-Ray Free-Electron Laser Facility,1,China,0,0.16666666666666666
+Shanghai Superintense Ultrafast Laser Facility,1,China,1,0.6666666666666666
+"Shanghai, China",1,China,1,0.8333333333333334
+ShanghaiTech University,1,China,1,0.8333333333333334
+"Szeged, Hungary",1,Hungary,1,0.8333333333333334
+Thomas Jefferson National Accelerator Facility,1,USA,0,0.6666666666666666
+Tsinghua University,1,China,1,0.8333333333333334
+UCLA Neptune Laboratory,1,USA,0,0.6666666666666666
+Univ. Nebraska-Lincoln,1,USA,1,0.8333333333333334
+Univ. Strathclyde,1,United Kingdom,0,0.8333333333333334
+Univ. Texas at Austin,1,USA,1,0.8333333333333334
+University of Michigan / Center for Ultrafast Optical Science,1,USA,1,0.8333333333333334
+"University of Rochester, Laboratory for Laser Energetics",1,USA,1,0.6666666666666666
+"Upton, USA",1,USA,0,0.6666666666666666
+"Varennes, Canada",1,Canada,0,0.8333333333333334
+"Warsaw, Poland",1,Poland,0,0.6666666666666666

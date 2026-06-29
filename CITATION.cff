@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: LaserBase
+message: "If you use this database or tooling, please cite the repository and the original facility/source references for individual records."
+type: software
+authors:
+  - name: LaserBase Contributors
+version: 0.1.0
+date-released: 2026-06-29
+license: MIT
+repository-code: "https://github.com/example/laser-facility-database"

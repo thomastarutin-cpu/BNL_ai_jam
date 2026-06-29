@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "laser-facility-database"
+version = "0.1.0"
+description = "Tools for validating, searching, plotting, and publishing a high-power laser and facility database."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "LaserBase Contributors" }]
+dependencies = [
+  "pandas>=2.0",
+  "numpy>=1.24",
+  "openpyxl>=3.1",
+  "pyarrow>=14",
+  "pydantic>=2",
+  "plotly>=5",
+  "streamlit>=1.30",
+  "typer>=0.9",
+  "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.4", "nbformat>=5"]
+
+[project.scripts]
+laserdb = "laserdb.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
