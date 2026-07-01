@@ -10,3 +10,7 @@ venv/
 dist/
 build/
 .DS_Store
+
+# Local-only maintainer deploy notes (not needed to use the repo)
+DEPLOY.md
+poetry.lock

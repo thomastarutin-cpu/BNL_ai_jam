@@ -1,0 +1,10 @@
+# LaserBase — dependencies for Streamlit Community Cloud (and any pip-based host).
+#
+# Installing the local project (".") does two things:
+#   1. Pulls in every runtime dependency declared in pyproject.toml
+#      (pandas, numpy, plotly, streamlit, pyarrow, openpyxl, pydantic, ...).
+#   2. Installs the `laserdb` package from src/ so that
+#      apps/streamlit_app.py can `import laserdb.*` on the host.
+#
+# pyproject.toml remains the single source of truth for versions.
+.

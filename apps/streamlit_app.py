@@ -18,7 +18,7 @@ from laserdb.validate import validate_database, validation_report_markdown
 ROOT = Path(__file__).resolve().parents[1]
 PROCESSED_PATH = ROOT / "data" / "processed" / "laser_data_processed.csv"
 LASER_TYPE_KEY_PATH = ROOT / "laser_type_key.txt"
-GITHUB_REPO_URL = "https://github.com/your-org/laser-facility-database"
+GITHUB_REPO_URL = "https://github.com/thomastarutin-cpu/BNL_ai_jam"
 
 COMPACT_COLUMNS = [
     "laser_name",
@@ -157,9 +157,6 @@ def apply_app_css() -> None:
     st.markdown(
         """
         <style>
-        section[data-testid="stSidebar"] div[data-testid="stHorizontalBlock"] {
-            gap: 0.35rem;
-        }
         section[data-testid="stSidebar"] .site-title {
             display: flex;
             align-items: center;
@@ -186,29 +183,32 @@ def apply_app_css() -> None:
         section[data-testid="stSidebar"] .laserbase-beam {
             position: absolute;
             left: 0;
-            top: 0.82rem;
-            width: 2.1rem;
-            height: 0.2rem;
+            top: 0.86rem;
+            width: 2.0rem;
+            height: 0.16rem;
             border-radius: 999px;
-            background: linear-gradient(90deg, #2364aa, #36c2ff);
+            background: linear-gradient(90deg, rgba(35, 100, 170, 0) 0%, #2364aa 30%, #36c2ff 100%);
+            box-shadow: 0 0 6px rgba(54, 194, 255, 0.75);
         }
         section[data-testid="stSidebar"] .laserbase-target {
             position: absolute;
-            left: 1.88rem;
-            top: 0.42rem;
-            width: 0.26rem;
-            height: 0.98rem;
-            border-radius: 999px;
-            background: #2f3747;
+            left: 1.94rem;
+            top: 0.36rem;
+            width: 0.34rem;
+            height: 1.08rem;
+            border-radius: 0.1rem;
+            background: linear-gradient(180deg, #3c4657, #232b38);
+            box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
         }
         section[data-testid="stSidebar"] .laserbase-flare {
             position: absolute;
-            left: 2.1rem;
-            top: 0.54rem;
-            width: 0.72rem;
-            height: 0.72rem;
+            left: 1.70rem;
+            top: 0.49rem;
+            width: 0.82rem;
+            height: 0.82rem;
             border-radius: 999px;
-            background: radial-gradient(circle, #ffd166 0 22%, #ff8a00 34%, rgba(255, 138, 0, 0) 68%);
+            background: radial-gradient(circle, #ffffff 0 12%, #ffd166 26%, #ff8a00 44%, rgba(255, 138, 0, 0) 70%);
+            box-shadow: 0 0 8px rgba(255, 180, 60, 0.85);
         }
         .laserbase-hero {
             display: flex;
@@ -226,29 +226,32 @@ def apply_app_css() -> None:
         .laserbase-hero .laserbase-beam {
             position: absolute;
             left: 0;
-            top: 1.12rem;
-            width: 3.1rem;
-            height: 0.28rem;
+            top: 1.16rem;
+            width: 3.0rem;
+            height: 0.22rem;
             border-radius: 999px;
-            background: linear-gradient(90deg, #2364aa, #36c2ff);
+            background: linear-gradient(90deg, rgba(35, 100, 170, 0) 0%, #2364aa 28%, #36c2ff 100%);
+            box-shadow: 0 0 10px rgba(54, 194, 255, 0.8);
         }
         .laserbase-hero .laserbase-target {
             position: absolute;
-            left: 2.8rem;
-            top: 0.52rem;
-            width: 0.34rem;
-            height: 1.38rem;
-            border-radius: 999px;
-            background: #2f3747;
+            left: 2.86rem;
+            top: 0.44rem;
+            width: 0.46rem;
+            height: 1.54rem;
+            border-radius: 0.12rem;
+            background: linear-gradient(180deg, #3c4657, #232b38);
+            box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
         }
         .laserbase-hero .laserbase-flare {
             position: absolute;
-            left: 3.08rem;
-            top: 0.72rem;
-            width: 1.12rem;
-            height: 1.12rem;
+            left: 2.45rem;
+            top: 0.57rem;
+            width: 1.28rem;
+            height: 1.28rem;
             border-radius: 999px;
-            background: radial-gradient(circle, #ffd166 0 20%, #ff8a00 35%, rgba(255, 138, 0, 0) 70%);
+            background: radial-gradient(circle, #ffffff 0 12%, #ffd166 26%, #ff8a00 44%, rgba(255, 138, 0, 0) 72%);
+            box-shadow: 0 0 14px rgba(255, 180, 60, 0.85);
         }
         .laserbase-hero-title {
             font-size: 3.2rem;
@@ -261,22 +264,6 @@ def apply_app_css() -> None:
             font-size: 1.02rem;
             margin-top: 0.35rem;
         }
-        section[data-testid="stSidebar"] .active-page-line {
-            width: 4px;
-            height: 1.45rem;
-            border-radius: 999px;
-            background: #2364aa;
-        }
-        section[data-testid="stSidebar"] .inactive-page-line {
-            width: 4px;
-            height: 1.45rem;
-        }
-        section[data-testid="stSidebar"] .nav-marker {
-            height: 2.42rem;
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-        }
         </style>
         """,
         unsafe_allow_html=True,
@@ -285,7 +272,7 @@ def apply_app_css() -> None:
 
 def sidebar_navigation() -> str:
     home = "Overview"
-    sections = ["Search", "Record Detail", "Plots", "Export", "About", "Contribute"]
+    sections = ["Search", "Record Detail", "Plots", "Export", "Database Keys", "Contribute", "About"]
     valid_sections = [home, *sections]
     requested = st.query_params.get("section", home)
     if requested in valid_sections and st.session_state.get("section") != requested:
@@ -310,10 +297,7 @@ def sidebar_navigation() -> str:
         unsafe_allow_html=True,
     )
     for section in sections:
-        marker, button = st.sidebar.columns([0.08, 0.92], vertical_alignment="center")
-        marker_class = "active-page-line" if section == current else "inactive-page-line"
-        marker.markdown(f'<div class="nav-marker"><div class="{marker_class}"></div></div>', unsafe_allow_html=True)
-        if button.button(
+        if st.sidebar.button(
             section,
             key=f"nav_{section}",
             use_container_width=True,
@@ -407,7 +391,7 @@ def overview(df: pd.DataFrame) -> None:
           <div>
             <div class="laserbase-hero-title">LaserBase</div>
             <div class="laserbase-hero-subtitle">
-              A searchable catalogue of high-power lasers, FELs, and related user facilities.
+              A searchable catalogue of high-power lasers and related user facilities.
             </div>
           </div>
         </div>
@@ -416,15 +400,13 @@ def overview(df: pd.DataFrame) -> None:
     )
     st.markdown(
         """
-        LaserBase is a Brookhaven National Laboratory (BNL) based database effort for organizing
-        source-backed information on high-power lasers, free-electron lasers, and related user
-        facilities. The database is designed to help researchers compare facility capabilities,
-        find representative operating parameters, and identify records that need community
-        follow-up or source verification.
+        LaserBase is a database effort for organizing source-backed information on high-power
+        lasers and related user facilities. The database is designed to help researchers compare
+        facility capabilities, find representative operating parameters, and maintain records on
+        instruments worldwide.
 
-        This project is affiliated with BNL and the U.S. Department of Energy research ecosystem.
-        It is a structured survey resource rather than a final authoritative registry; source
-        values are preserved and missing values are treated as unavailable, not zero.
+        This project is presented as a part of the inaugural 2026 Brookhaven National Lab AI Jam,
+        where it was awarded 1st place (see more in About).
         """
     )
     cols = st.columns(4)
@@ -476,6 +458,30 @@ def overview(df: pd.DataFrame) -> None:
             coloraxis_colorbar_title="Records",
         )
         st.plotly_chart(fig, use_container_width=True)
+
+    st.subheader("How To Use The Website")
+    st.markdown(
+        """
+        - Use **Search** to find facilities by name, country, laser type, status, wavelength band, or FOM range.
+        - Use **Record Detail** to inspect one entry, including source values and display values for each FOM.
+        - Use **Plots** to compare any two numeric FOMs and optionally color by facility metadata or a third FOM.
+        - Use **Export** to download either the filtered table or the full processed database.
+        - Use **Database Keys** to look up laser type codes and the acronyms used throughout the database.
+
+        Missing or unavailable values are shown as `Not reported`. They are omitted from plots when the selected
+        axis, legend, or color variable depends on that value.
+        """
+    )
+
+    st.subheader("What The Database Contains")
+    st.markdown(
+        """
+        Records may describe a facility, a beamline, a specific laser system, or a representative operating mode.
+        Figure-of-merit values come from heterogeneous publications, facility pages, reports, and other source
+        material. Source values are preserved, and missing values are treated as unavailable, not zero.
+        """
+    )
+
 
 def render_laser_type_key() -> None:
     key_table, raw_text = load_laser_type_key(LASER_TYPE_KEY_PATH)
@@ -730,80 +736,119 @@ def export_page(df: pd.DataFrame, filtered: pd.DataFrame) -> None:
     st.download_button("Validation report markdown", report, file_name="validation_report.md")
 
 
-def about_page() -> None:
-    st.header("About")
-    st.markdown(
-        f"""
-        LaserBase is a public catalogue for exploring high-power laser
-        systems, free-electron lasers, and related user facilities. The goal is to make it
-        easier to find facilities, compare operating parameters, identify source references,
-        and support community curation of facility information.
-
-        LaserBase is being developed as a BNL-based database effort connected to the broader
-        U.S. Department of Energy (DOE) user-facility and high-energy-density science community.
-        The current release is a structured survey database intended for discovery, comparison,
-        and curation rather than an official facility performance registry.
-
-        **GitHub repository:** [{GITHUB_REPO_URL}]({GITHUB_REPO_URL})
-
-        The GitHub link is a placeholder until the repository is made public.
-        """
-    )
-
-    st.subheader("How To Use The Website")
+def database_keys_page() -> None:
+    st.header("Database Keys")
     st.markdown(
         """
-        - Use **Search** to find facilities by name, country, laser type, status, wavelength band, or FOM range.
-        - Use **Record Detail** to inspect one entry, including source values and display values for each FOM.
-        - Use **Plots** to compare any two numeric FOMs and optionally color by facility metadata or a third FOM.
-        - Use **Export** to download either the filtered table or the full processed database.
-
-        Missing or unavailable values are shown as `Not reported`. They are omitted from plots when the selected
-        axis, legend, or color variable depends on that value.
-        """
-    )
-
-    st.subheader("What The Database Contains")
-    st.markdown(
-        """
-        Records may describe a facility, a beamline, a specific laser system, or a representative operating mode.
-        Figure-of-merit values come from heterogeneous publications, facility pages, reports, and other source
-        material. Missing values should not be interpreted as zero.
-        """
-    )
-
-    st.subheader("Affiliation And Contact")
-    st.markdown(
-        """
-        This website is intended to present LaserBase as a BNL-based community database aligned with
-        DOE-supported facility discovery and data-curation practices. Facility owners, user groups,
-        and scientific collaborators should use the **Contribute** page to propose additions,
-        corrections, or source updates.
-
-        Public contact information will be added before release. Placeholder contact:
-        `database-contact@example.org`.
+        This page collects the keys and abbreviations used throughout LaserBase. Use it as a
+        reference when reading records, filtering the catalogue, or interpreting plots.
         """
     )
 
     render_laser_type_key()
 
+    st.subheader("Abbreviations And Units")
+    acronyms = pd.DataFrame(
+        [
+            ("FOM", "Figure of merit — a headline performance parameter such as peak power or pulse energy."),
+            ("DOI", "Digital Object Identifier — a persistent link to the source publication or record."),
+            ("PW", "Petawatt (10^15 watts) — unit used for peak power."),
+            ("W", "Watt — unit used for peak power."),
+            ("nm", "Nanometre (10^-9 m) — unit used for wavelength."),
+            ("um", "Micrometre (10^-6 m) — unit used for wavelength."),
+            ("m", "Metre — SI unit used for wavelength."),
+            ("Hz", "Hertz — pulses (or shots) per second, used for repetition rate."),
+            ("J", "Joule — unit used for pulse energy."),
+            ("fs", "Femtosecond (10^-15 s) — unit used for pulse duration."),
+            ("ps", "Picosecond (10^-12 s) — unit used for pulse duration."),
+            ("W/cm^2", "Watts per square centimetre — unit used for maximum on-target intensity."),
+            ("W/m^2", "Watts per square metre — SI unit used for maximum on-target intensity."),
+            ("FEL", "Free-electron laser."),
+            ("CPA", "Chirped pulse amplification."),
+            ("OPCPA", "Optical parametric chirped pulse amplification."),
+        ],
+        columns=["Abbreviation", "Meaning"],
+    )
+    st.dataframe(acronyms, use_container_width=True, hide_index=True)
+
+    st.subheader("Record Notes")
+    st.markdown(
+        """
+        - Missing or unavailable values are shown as `Not reported` and are treated as unavailable, not zero.
+        - Source values are preserved as reported; parsed display values are provided for comparison and plotting.
+        - A record may represent a facility, a beamline, a specific laser system, or a representative operating mode.
+        """
+    )
+
+
+def about_page() -> None:
+    st.header("About")
+    st.markdown(
+        """
+        This project was conducted as part of the Brookhaven National Laboratory (BNL) 2026 AI Jam.
+        The goal of the competition was to use AI tools, namely OpenAI's ChatGPT and Codex, to
+        work on novel projects as a way of demonstrating how these tools can be applied in
+        scientific research. A total of 45 teams representing over 250 interns at BNL were each
+        given a different task or question to address using the provided models. Teams worked on
+        their projects from 9:00am to 3:30pm with guidance from a BNL faculty mentor. After the
+        work period, a set of finalists were selected to give a brief presentation on their team's
+        results, and three top prizes were named at the end.
+
+        The LaserBase project, presented by Team 13, was awarded first prize. Although only Team 13
+        was officially recognized with the top prize, the final product is the combined effort of
+        Teams 11, 12, 13, 14, and 15. The data reported here represents the collective work gathered
+        by all five groups, with the final database interface coming from Team 13's project.
+
+        AI tools were used to conduct a large literature search, build the final user interface, and
+        combine the five original datasets. All sources and entries in LaserBase were verified by
+        hand, without the use of AI.
+        """
+    )
+
+    st.subheader("Team 13")
+    st.markdown(
+        """
+        Moaiad Eljack (team captain), Thomas Tarutin, Jacob Donovan, Alexander Kosak,
+        Ana Huerfano Ramos, and Samuel Block.
+        """
+    )
+
+    st.subheader("Acknowledgements")
+    st.markdown(
+        f"""
+        Special thanks to our faculty mentor, **Mikhail Polyanskiy**, for his guidance throughout
+        the project.
+
+        Thank you especially to **Austin Brown** (Team 12) and **Micah Santiago** (Team 14) for their
+        help in putting together the final dataset, the interface, and the presentation.
+
+        Thank you to all of the organizers of the event.
+
+        **GitHub repository:** [{GITHUB_REPO_URL}]({GITHUB_REPO_URL})
+        """
+    )
+
 
 def contribute_page() -> None:
     st.header("Contribute")
+    st.info(
+        "The following is a sample placeholder page illustrating how a maintaining user group "
+        "might operate LaserBase as an ongoing, community-curated database. The contact details "
+        "and workflow below are examples, not active channels."
+    )
     st.markdown(
         f"""
-        This database is intended to be maintained like a public scientific facility catalogue:
-        facilities, user groups, and community members can propose additions or corrections,
-        and curators review source-backed changes before they become part of the published database.
+        A database like this is best maintained as a public scientific facility catalogue:
+        facilities, user groups, and community members propose additions or corrections, and
+        curators review source-backed changes before they become part of the published database.
 
-        LaserBase is a BNL-based database effort intended to support the broader DOE research
-        community by making facility information easier to discover, compare, and improve.
+        A user group that took ownership of LaserBase would use this page to publish their contact
+        information, describe what they need from contributors, and explain how proposed changes are
+        reviewed and merged.
 
         **GitHub repository:** [{GITHUB_REPO_URL}]({GITHUB_REPO_URL})
 
-        **Contact for facility additions or corrections:** `database-contact@example.org`
-
-        The repository URL and contact email are placeholders until the project is public.
+        **Example contact for facility additions or corrections:** `database-contact@example.org`
         """
     )
 
@@ -874,6 +919,8 @@ def main() -> None:
     elif page == "Export":
         filtered = search_page(df)
         export_page(df, filtered)
+    elif page == "Database Keys":
+        database_keys_page()
     elif page == "About":
         about_page()
     elif page == "Contribute":
